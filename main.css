@@ -1,0 +1,307 @@
+
+body, html{
+  height: 100%;
+  font-family: 'Bookman', sans-serif;
+  
+}
+
+.bar{
+  display:grid;
+  grid-template-rows: 40px 40px 40px 40px;
+  color: #05386B;
+  font-family: 'Montserrat Subrayada', sans-serif;
+   
+}
+
+.bar a{
+    text-decoration:none;
+}
+.bg {
+    background-image: url('https://get.pxhere.com/photo/aerial-animal-background-childhood-closeup-decor-decoration-effects-fashion-fashionable-figure-flat-lay-flatlay-fun-hippo-hippopotamus-isolated-leopard-mammal-model-object-plastic-predator-safari-shiny-stylish-tiger-toy-wild-wildlife-yellow-yellow-background-zoo-fauna-cat-like-mammal-terrestrial-animal-organism-carnivoran-big-cats-puma-animal-figure-1431191.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+ul{
+   margin-top: 4em;
+   margin-bottom: -15em;
+   list-style: none;
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+
+intro{
+  text-align: center;
+  padding-left: 2px;
+  margin-left: 4em;
+}
+
+.hometitle{
+  text-align: center;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: #05386B;
+  font-size: 100px;
+  margin: 0.7em;
+  text-decoration: none;
+  
+}
+
+.workheader{
+    font-size: 40px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    
+}
+
+.work{
+    display:grid;
+    line-height:30px;
+    
+}
+
+.github-pic {
+    width: 128px;
+    height: 128px;
+    padding: 20px;
+    display:inline-block;
+     
+}
+
+.freely {
+    padding: 20px;
+    height: 70px;
+    width: 250px; 
+    
+}
+
+
+.project {
+
+  text-decoration: none;
+  color: #008080;
+  grid-template-columns: repeat( auto-fit, minmax(50px, 2fr));
+  grid-template-rows: 50px 50px;
+  border: 2px solid #CCCC00;
+  height: 280px;
+  width: 280px;
+  margin: auto;
+  width:300px;
+  border-radius: 1em;
+
+    
+}  
+
+.project-title{
+ margin-top:55px;
+ 
+}
+
+.project-title2{
+ padding-left:20px;
+}
+
+  
+.h2 {
+ position: relative;
+float: left;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+  }
+
+footer{
+    margin-bottom: 3em;
+    padding: 5em;
+    
+}
+
+.intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+@media (max-height: 800px){
+    p{
+     font-size: 10px;
+        
+    }
+}
+    
+p {
+  lineheight: 16px;
+  width: 50vmax;
+  font-size:16px
+  
+
+}
+
+/* The navigation bar link */
+
+
+.contact{
+    font-size: 50px;
+    text-align: left;
+}
+
+
+a {
+color: #05386B;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #EDF5E1;
+}
+
+.content-wrap{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50 px;
+
+}
+  
+img{
+  float: left;  
+  margin-right: 15px;
+}
+
+.intro {
+ line-height: 1.6;
+ text-align: center;   
+ width: 40%;
+ margin: 0;
+ margin-bottom: 1em;
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    color: black;
+    
+#textarea{
+    width: 90%;
+    height: 120px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: red;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 19em;
+    
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+footer {
+  grid-column: span 3;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.4em;
+  background-color: #690;
+  color: white;
+}
+ 
+.contact-title
+{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+ 
+form
+{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+ 
+.form-control
+{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+ 
+input
+{
+    height: 45px;
+}
+ 
+form .submit
+{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+ 
+ 
+form .submit:hover
+{
+    background-color: #44336;
+    cursor: pointer;
+}
+
+/* ABOUT PAGE */
+
+p{
+  max-width: 300px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+
+  }
+}
+
+
+
+
+
+
